@@ -1,1 +1,6 @@
-game.Player.LocalPlayer:Kick("tis script is not ready thx")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "hey idiot",
+    Text = "thsi script isnt ready bitch",
+    Duration = 5
+  }
+)
